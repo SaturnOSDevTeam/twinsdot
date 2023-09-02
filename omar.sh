@@ -42,3 +42,8 @@ rm -r ~/.icons/{oomox-aesthetic-light,oomox-aesthetic-dark,*.tar.xz} # Delete un
 fc-cache -rv
 
 sudo gpasswd -a $USER video
+
+sudo systemctl enable bluetooth
+
+sudo reboot --reboot -f
+#This bash script reboots your system at the end of its installation, make sure to always close and save all applications beforehand, i am not responsible for any lost data.
